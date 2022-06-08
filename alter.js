@@ -10,13 +10,13 @@ function transform(){
 
         let have_postfix = randomBool(0.5);
         let postfix_index = Math.floor( Math.random() * postfixes.length );
-        let postfix  = have_postfix ? ( '(' + postfixes[postfix_index]) : '' ;
+        let postfix  = have_postfix ? ( postfixes[postfix_index]) : '' ;
 
         let have_prefix = randomBool(0.5);
         let prefix_index = Math.floor( Math.random() * prefixes.length );
         let prefix = have_prefix? prefixes[prefix_index] : '' ;
 
-        new_text += `${prefix} ${line} ${www} ${postfix} <br />`;
+        new_text += `${prefix}${line}${www}${postfix} <br />`;
 
     });
 
