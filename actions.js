@@ -1,21 +1,19 @@
-const postfixes = [
-    "！",
-    "！！",
+const prefixes = [
     "對！",
     "我也覺得！",
     "哈哈哈",
-    "豪！",
     "ㄟ"
 ]
 
-const prefixes = [
+const postfixes = [
+    "！",
+    "！！",
     "🥺",
     "～",
     "～～",
     "XD",
     "XDD",
     "XDDD",
-    "好讚",
     "哈哈",
     "哈哈哈",
     "哈哈哈哈",
