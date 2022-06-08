@@ -6,7 +6,7 @@ function transform(){
     text_array.forEach(line => {
         let have_www = randomBool(0.3);
         let www_number = ( Math.floor ( Math.random() * 4 ) + 2 ) * have_www; // 最多7個，最少 2個
-        let www = "w".repeat(www_number); 
+        let www = "🤣".repeat(www_number); 
 
         let have_postfix = randomBool(0.5);
         let postfix_index = Math.floor( Math.random() * postfixes.length );
